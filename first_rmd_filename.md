@@ -24,4 +24,43 @@ head(iris)
 
 first 6 rows of iris dataset.
 
+This is an image of an Kim Jung En
+
 ![This is an image of an Kim Jung En](http://www.motorgraph.com/news/photo/201512/8167_35944_443.jpg)
+
+let's go for the ggplot
+
+``` r
+install.packages("tidyr",repos = "http://cran.us.r-project.org")
+```
+
+    ## 
+    ## The downloaded binary packages are in
+    ##  /var/folders/l7/y2ztr08x2qb06_dtl31rdcz00000gn/T//Rtmp0NROI3/downloaded_packages
+
+``` r
+library(tidyverse)
+```
+
+    ## Loading tidyverse: ggplot2
+    ## Loading tidyverse: tibble
+    ## Loading tidyverse: tidyr
+    ## Loading tidyverse: readr
+    ## Loading tidyverse: purrr
+    ## Loading tidyverse: dplyr
+
+    ## Warning: package 'tidyr' was built under R version 3.4.2
+
+    ## Warning: package 'dplyr' was built under R version 3.4.2
+
+    ## Conflicts with tidy packages ----------------------------------------------
+
+    ## filter(): dplyr, stats
+    ## lag():    dplyr, stats
+
+``` r
+ggplot(data = mpg) + 
+  geom_point(mapping = aes(x = displ, y = hwy, color = class))
+```
+
+![](first_rmd_filename_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-3-1.png)
