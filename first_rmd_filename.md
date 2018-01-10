@@ -36,7 +36,7 @@ install.packages("tidyr",repos = "http://cran.us.r-project.org")
 
     ## 
     ## The downloaded binary packages are in
-    ##  /var/folders/l7/y2ztr08x2qb06_dtl31rdcz00000gn/T//Rtmp0NROI3/downloaded_packages
+    ##  /var/folders/l7/y2ztr08x2qb06_dtl31rdcz00000gn/T//RtmpqqX9xc/downloaded_packages
 
 ``` r
 library(tidyverse)
