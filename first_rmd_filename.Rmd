@@ -1,0 +1,25 @@
+---
+title: "First_Rmarkdown"
+author: "tom"
+date: '2018-01-10'
+output: github_document
+---
+
+##This is my RMD file.
+
+### I am exhausted.
+
+### I have 3 courses to take today.
+
+
+```{r}
+head(iris)
+```
+ 
+ first 6 rows of iris dataset.
+ 
+  This is an image of an Kim Jung En
+
+![This is an image of an Kim Jung En](http://www.motorgraph.com/news/photo/201512/8167_35944_443.jpg)
+
+ 
