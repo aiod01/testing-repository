@@ -32,7 +32,7 @@ install.packages("tidyr",repos = "http://cran.us.r-project.org")
 ```{r}
 library(tidyverse)
 ggplot(data = mpg) + 
-  geom_point(mapping = aes(x = displ, y = hwy, color = class))
+  geom_point(mapping = aes(x = displ, y = hwy,size = class, color = drv))
 ```
  
  

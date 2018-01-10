@@ -36,7 +36,7 @@ install.packages("tidyr",repos = "http://cran.us.r-project.org")
 
     ## 
     ## The downloaded binary packages are in
-    ##  /var/folders/l7/y2ztr08x2qb06_dtl31rdcz00000gn/T//RtmpqqX9xc/downloaded_packages
+    ##  /var/folders/l7/y2ztr08x2qb06_dtl31rdcz00000gn/T//RtmpfGIJeu/downloaded_packages
 
 ``` r
 library(tidyverse)
@@ -60,7 +60,9 @@ library(tidyverse)
 
 ``` r
 ggplot(data = mpg) + 
-  geom_point(mapping = aes(x = displ, y = hwy, color = class))
+  geom_point(mapping = aes(x = displ, y = hwy,size = class, color = drv))
 ```
+
+    ## Warning: Using size for a discrete variable is not advised.
 
 ![](first_rmd_filename_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-3-1.png)
